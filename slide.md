@@ -1,82 +1,42 @@
 ---
 marp: true
-theme: traP
-math: katex
+theme: default
 ---
-
 <!--
 headingDivider: 2
 -->
 
-<!--
-class: slides
--->
-
-# タイトル
 
 
+# 教養卒論
+理学院物理学系　関響
 
-<!--
-_class: title
--->
-
-### サブタイトル・発表者名など
-
-## サブタイトル
-
-まだつくってないよ
-
-## 白紙
-
-## テキスト
-
-あいうえお
-かきくけこ
-さしすせそ
-
-## 箇条書き
-
-- ぽよぽよ
-- あいうえお
-  - かきくけこ
-
-
-## いろいろ
-
-多分だいたいのMarkdown記法に対応してるよ
-
-```javascript
-console.log("おいす～")
+## 手続き型言語
+```c
+int main() {
+  /* mesという変数に"Hello World"を格納 */
+  const char *mes = "Hello World";
+  /* mesを出力 */
+  printf("%s\n", mes);
+}
 ```
-> は?情緒不安定か?ﾏﾝｺﾞｰうまいぜ
+## 関数型言語
 
-$$
-a+b=c
-$$
+```haskell
+main = fizzbuzz 100
+fizzbuzz n = mapM_ (putStrLn . mes) [1..n]
+mes n 
+  | n `mod` 15 == 0 = "FizzBuzz"
+  | n `mod` 3 == 0 = "Fizz"
+  | n `mod` 5 == 0 = "Buzz"
+  | otherwise = show n
+```
+## コンパイル言語/スクリプト言語
 
-## いろいろ2
+- コンパイル言語
+  - 一度機械語に翻訳してから実行する
+- スクリプト言語
+  - ソースコードを逐次翻訳して実行する
+# 完
 
-| a            | b        |
-| ------------ | -------- |
-| あ           | い       |
-| こんな感じで | 書けるよ |
-
-
-## 画像
-
-あんまり凝ったことはできない
-
-![](sample_image/traP.png)
-
-サイズ変えたり横に並べるぐらいならできる
-
-![w:200px](sample_image/traP.png)![w:200px](sample_image/traP.png)
-
-# ![](sample_image/lolico.png) @trapyojo
-
-<!--
-_class: user
--->
-
-正方形の画像を載せると多分いい感じにしてくれるよ
-それ以外についてはしらないよ
+1minで終わるわけがない
